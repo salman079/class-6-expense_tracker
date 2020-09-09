@@ -27,12 +27,12 @@ input[type='number'] {
   width: 100%;
 }
 
-.income {
+.money.plus {
   color: seagreen;
   font-weight: bold;
 }
 
-.expense {
+.money.minus {
   color: tomato;
   font-weight: bold;
 }
