@@ -42,4 +42,4 @@ jobs:
       run: npm install -g surge
     
     - name: deploying to surge
-      run: surge ./build http://expensetracker-salman079.surge.sh/ --token ${{react_exp_tracker}}
+      run: surge ./build http://expensetracker-salman079.surge.sh/ --token ${{REACT_EXP_TRACKER}}
