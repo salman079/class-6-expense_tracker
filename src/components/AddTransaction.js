@@ -48,7 +48,7 @@ export const AddTransaction = () => {
                             id="transactionamount"
                             value={transactionAmount}
                             onChange={(e) => setTransactionAmount(e.target.value)}
-                            placeholder="Dollar Value of Transaction"
+                            placeholder="Saudi Riyal value of a transaction"
                             required="required"
                     />
                 </div>
